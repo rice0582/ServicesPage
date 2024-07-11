@@ -1,11 +1,270 @@
-html<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="Litol Dumplings">
+    <title>Conti's Bakeshop & Restaurant</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+        }
+        .Header {
+            background-color: #348946;
+            margin: 0;
+            padding: 0;
+        }
+        .Header-contents {
+            text-align: center;
+            position: relative;
+        }
+        .Header-contents img {
+            max-width: 100px;
+            height: auto;
+        }
+        .nav-link {
+            color: #f4e3ae;
+        }
+        .fs-4 {
+            color: #eae6e5;
+            margin-left: 10px;
+            font-size: 25px;
+        }
+        .header-pic img {
+            max-width: 100px;
+            height: auto;
+        }
+        .nav-pills {
+            justify-content: center;
+        }
+        .nav-link {
+            font-size: 20px;
+        }
+        .footer {
+            background-color: #f4e3ae;
+            color: #12130f;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 20px;
+        }
+        .footer .column {
+            flex: 1 1 200px;
+            margin: 10px;
+        }
+        .footer .column h3 {
+            margin-top: 0;
+        }
+        .footer .column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .footer .column ul li {
+            margin: 10px 0;
+        }
+        .footer .column ul li a {
+            color: #12130f;
+            text-decoration: none;
+        }
+        .footer .column ul li a:hover {
+            text-decoration: underline;
+        }
+        .d-block {
+            margin: 0;
+        }
+        .Lower-Body {
+            margin: 0;
+            padding: 25px;
+        }
+        .LB-pics img {
+            width: 350px;
+            height: auto;
+            margin: 15px;
+            border-radius: 20px;
+        }
+        .services {
+            margin: 20px 0;
+        }
+        .service-filters {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .service-filters a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border: 1px solid #333;
+            border-radius: 20px;
+        }
+        .service-filters a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+        .service-box {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .service-box img {
+            width: 100%;
+            height: 55%;
+            border-radius: 8px;
+        }
+        .service-box h2 {
+            margin: 10px 0 5px 0;
+        }
+        .service-box p {
+            margin: 0;
+        }
+        .service-box a {
+            color: #333;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-  
+    <section class="Header">
+        <div class="container-fluid">
+            <header class="py-3 mb-4 border-bottom">
+                <div class="Header-contents">
+                    <img src="https://app.aranetacity.com/files/establishments/image/2137ac44-82d2-46f9-ac7e-45dec57ba2b7/Conti's.jpg" alt="Conti's Logo" class="img-fluid">
+                    <span class="fs-4">Conti's Bakeshop & Restaurant</span>
+                    <ul class="nav nav-pills mt-3">
+                        <li class="nav-item"><a href="http://127.0.0.1:3002/index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="http://127.0.0.1:3002/WEB.html" class="nav-link">Menu</a></li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="services" class="services text-center">
+            <div class="service-filters">
+                <a href="#all">All</a>
+                <a href="#curbside">curbside</a>
+                <a href="#delivery">delivery</a>
+                <a href="#dine-in">dine-in</a>
+                <a href="#drive-thru">drive-thru</a>
+                <a href="#pick-up">pick-up</a>
+                <a href="#services">services</a>
+                <a href="#take-out">take-out</a>
+                <a href="#walk-in">walk-in</a>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="service-box">
+                        <img src="https://www.contis.ph/cdn/shop/articles/celebration_ff5ba12a-7cf0-40dd-9bb9-226617993180.webp?v=1695110111&width=400" alt="Celebration Venues">
+                        <h2>Celebration Venues</h2>
+                        <p>Function Rooms, Catering, Dessert Buffet</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="service-box">
+                        <img src="https://www.contis.ph/cdn/shop/articles/369907143_680070950829576_1873695139108973099_n_ed231c57-8a4c-4cf5-997e-d8e18e4b660d.jpg?v=1694772494&width=400" alt="Take-Out">
+                        <h2>Take-Out</h2>
+                        <p>Our Take Out Nook (TON) offers on-the-go guests the convenience of browsing and purchasing their favorite bakeshop ...</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="service-box">
+                        <img src="https://www.contis.ph/cdn/shop/articles/delivery.jpg?v=1689957573&width=600" alt="Delivery">
+                        <h2>Delivery</h2>
+                        <p>Our Delivery service offers guests the convenience of having their orders brought straight to their doorstep by our courteous riders.</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="service-box">
+                        <img src="https://www.contis.ph/cdn/shop/articles/562.png?v=1694772433&width=600" alt="Drive-thru / Park-thru">
+                        <h2>Drive-thru / Park-thru</h2>
+                        <p>Our first ever drive thru is available at Anabu, Molino Boulevard Cavite, Sto. Tomas Batangas, Centennial Kawit Cavite, Sierra Valley Cainta, Imus branch.</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="service-box">
+                        <img src="https://www.contis.ph/cdn/shop/articles/365307048_672722618231076_8235744741276011401_n.jpg?v=1695001467&width=400" alt="Self-Pick-up">
+                        <h2>Self-Pick-up</h2>
+                        <p>Our Pick-up service also offers on-the-go guests the convenience of placing an order in advance for pick-up by them or a representative at a later time or future date.</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="service-box">
+                        <img src="https://www.contis.ph/cdn/shop/articles/drive-thru.jpg?v=1689957755&width=600" alt="Curbside Pick-up">
+                        <h2>Curbside Pick-up</h2>
+                        <p>The Curbside Pick-up service offers guests the convenience of placing and paying for their orders from the comforts of their vehicles while our team assemble and bring their purchased products back to them so that they would not have to leave their vehicles and wait inside the store.</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-center">
+                    <div class="service-box">
+                        <img src="https://www.contis.ph/cdn/shop/articles/341001093_246081797868680_3324400572411823530_n.jpg?v=1695001436&width=400" alt="Dine-in">
+                        <h2>Dine-in</h2>
+                        <p>Our restaurant facilities give guests the convenience of enjoying our food served to
+                            them by our kitchen and dine-team teams</p>
+                        <a href="#">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="mailto:wecare@contis.ph">Email</a></li>
+                        <li>Phone No.: 8580-8888</li>
+                        <li><a href="https://www.facebook.com/contisph" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/contis_ph" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Careers</a></li>
+                        <li><a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Help Center</a></li>
+                        <li><a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Terms and Conditions</a></li>
+                        <li><a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h3>Newsletter sign-up</h3>
+                    <ul>
+                        <form>
+                            <div class="sign-up">
+                                <input type="email" class="form-control" id="EmailSignUp" aria-describedby="emailHelp" placeholder="Enter email">
+                            </div>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+            <p>CONTI'S SPECIALTY FOODS, INC. (For Educational Purposes Only)</p>
+        </div>
+    </section>
 </body>
 </html>

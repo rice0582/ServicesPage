@@ -59,7 +59,16 @@
       .header-pic img {
         max-width: 100px;
         height: auto;
-      }
+
+    }
+
+* {
+    font-family: trebuchet;
+    }
+
+* body { 
+    background-color: #ffffe0;
+}
       .nav-pills {
         justify-content: center;
       }
@@ -200,15 +209,15 @@
     <div class="container">
       <section id="services" class="services text-center">
         <div class="service-filters">
-          <a href="#all">All</a>
-          <a href="#curbside">curbside</a>
-          <a href="#delivery">delivery</a>
-          <a href="#dine-in">dine-in</a>
-          <a href="#drive-thru">drive-thru</a>
-          <a href="#pick-up">pick-up</a>
-          <a href="#services">services</a>
-          <a href="#take-out">take-out</a>
-          <a href="#walk-in">walk-in</a>
+            <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">ALL</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">CURBSIDE</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">DELIVERY</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">DINE-IN</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">DRIVE-THRU</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">PICK UP</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">SERVICES</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">TAKE OUT</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">WALK-IN</a> </a>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 d-flex justify-content-center">
@@ -219,7 +228,7 @@
               />
               <h2>Celebration Venues</h2>
               <p>Function Rooms, Catering, Dessert Buffet</p>
-              <a href="#">Continue Reading</a>
+              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
           <div class="col-md-4 d-flex justify-content-center">
@@ -233,7 +242,7 @@
                 Our Take Out Nook (TON) offers on-the-go guests the convenience
                 of browsing and purchasing their favorite bakeshop ...
               </p>
-              <a href="#">Continue Reading</a>
+              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
           <div class="col-md-4 d-flex justify-content-center">
@@ -248,7 +257,7 @@
                 their orders brought straight to their doorstep by our courteous
                 riders.
               </p>
-              <a href="#">Continue Reading</a>
+              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
           <div class="col-md-4 d-flex justify-content-center">
@@ -263,7 +272,7 @@
                 Boulevard Cavite, Sto. Tomas Batangas, Centennial Kawit Cavite,
                 Sierra Valley Cainta, Imus branch.
               </p>
-              <a href="#">Continue Reading</a>
+              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
           <div class="col-md-4 d-flex justify-content-center">
@@ -278,7 +287,7 @@
                 of placing an order in advance for pick-up by them or a
                 representative at a later time or future date.
               </p>
-              <a href="#">Continue Reading</a>
+              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
           <div class="col-md-4 d-flex justify-content-center">
@@ -292,10 +301,10 @@
                 The Curbside Pick-up service offers guests the convenience of
                 placing and paying for their orders from the comforts of their
                 vehicles while our team assemble and bring their purchased
-                products back to them so that they would not have to leave their
+                products back to them so that they would not leave their
                 vehicles and wait inside the store.
               </p>
-              <a href="#">Continue Reading</a>
+              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
           <div class="col-md-4 d-flex justify-content-center">
@@ -310,7 +319,7 @@
                 enjoying our food served to them by our kitchen and dine-team
                 teams
               </p>
-              <a href="#">Continue Reading</a>
+              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
         </div>
@@ -387,3 +396,9 @@
     </section>
   </body>
 </html>
+
+
+
+
+
+

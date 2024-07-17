@@ -59,16 +59,11 @@
       .header-pic img {
         max-width: 100px;
         height: auto;
+      }
 
-    }
-
-* {
-    font-family: trebuchet;
-    }
-
-* body { 
-    background-color: #ffffe0;
-}
+      body {
+        background-color: #ffffe0;
+      }
       .nav-pills {
         justify-content: center;
       }
@@ -129,17 +124,24 @@
       .service-filters {
         text-align: center;
         margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
       }
       .service-filters a {
-        margin: 0 10px;
+        display: inline-block;
+        margin: 5px;
         text-decoration: none;
         color: #333;
-        padding: 5px 10px;
+        padding: 10px 15px;
+        text-decoration: none;
+        background-color: #ffe8a3;
         border: 1px solid #333;
-        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s;
       }
       .service-filters a:hover {
-        background-color: #333;
+        background-color: #348946;
         color: #fff;
       }
       .service-box {
@@ -151,7 +153,7 @@
       }
       .service-box img {
         width: 100%;
-        height: 55%;
+        height: auto;
         border-radius: 8px;
       }
       .service-box h2 {
@@ -166,12 +168,10 @@
         display: inline-block;
         margin-top: 10px;
       }
-
       .column h3 {
         font-weight: 900;
       }
-
-      .footer p{
+      .footer p {
         font-weight: 900;
         font-size: 15px;
       }
@@ -209,29 +209,44 @@
     <div class="container">
       <section id="services" class="services text-center">
         <div class="service-filters">
-            <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">ALL</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">CURBSIDE</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">DELIVERY</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">DINE-IN</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">DRIVE-THRU</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">PICK UP</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">SERVICES</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">TAKE OUT</a> </a>
-          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">WALK-IN</a> </a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">ALL</a>
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >CURBSIDE</a
+          >
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >DELIVERY</a
+          >
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >DINE-IN</a
+          >
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >DRIVE-THRU</a
+          >
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >PICK UP</a
+          >
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >SERVICES</a
+          >
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >TAKE OUT</a
+          >
+          <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');"
+            >WALK-IN</a
+          >
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/celebration_ff5ba12a-7cf0-40dd-9bb9-226617993180.webp?v=1695110111&width=400"
                 alt="Celebration Venues"
               />
               <h2>Celebration Venues</h2>
-              <p>Function Rooms, Catering, Dessert Buffet</p>
-              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
+              <p>Function Rooms, Catering, Dessert Buffet.</p>
             </div>
           </div>
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/369907143_680070950829576_1873695139108973099_n_ed231c57-8a4c-4cf5-997e-d8e18e4b660d.jpg?v=1694772494&width=400"
@@ -240,12 +255,11 @@
               <h2>Take-Out</h2>
               <p>
                 Our Take Out Nook (TON) offers on-the-go guests the convenience
-                of browsing and purchasing their favorite bakeshop ...
+                of browsing and purchasing their favorite bakeshop.
               </p>
-              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/delivery.jpg?v=1689957573&width=600"
@@ -257,10 +271,9 @@
                 their orders brought straight to their doorstep by our courteous
                 riders.
               </p>
-              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/562.png?v=1694772433&width=600"
@@ -272,10 +285,9 @@
                 Boulevard Cavite, Sto. Tomas Batangas, Centennial Kawit Cavite,
                 Sierra Valley Cainta, Imus branch.
               </p>
-              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/365307048_672722618231076_8235744741276011401_n.jpg?v=1695001467&width=400"
@@ -287,10 +299,9 @@
                 of placing an order in advance for pick-up by them or a
                 representative at a later time or future date.
               </p>
-              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/drive-thru.jpg?v=1689957755&width=600"
@@ -304,10 +315,9 @@
                 products back to them so that they would not leave their
                 vehicles and wait inside the store.
               </p>
-              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
-          <div class="col-md-4 d-flex justify-content-center">
+          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/341001093_246081797868680_3324400572411823530_n.jpg?v=1695001436&width=400"
@@ -317,9 +327,8 @@
               <p>
                 Our restaurant facilities give guests the convenience of
                 enjoying our food served to them by our kitchen and dine-team
-                teams
+                teams.
               </p>
-              <a href="javascript:alert('FOR EDUCATIONAL PURPOSES ONLY');">Continue Reading</a> </a>
             </div>
           </div>
         </div>
@@ -396,9 +405,3 @@
     </section>
   </body>
 </html>
-
-
-
-
-
-

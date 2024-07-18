@@ -156,6 +156,7 @@
         height: auto;
         border-radius: 8px;
       }
+
       .service-box h2 {
         margin: 10px 0 5px 0;
       }
@@ -187,19 +188,19 @@
               alt="Conti's Logo"
               class="img-fluid"
             />
-            <span class="fs-4">Conti's Bakeshop & Restaurant </span>
+            <span class="fs-4">CONTI'S BAKESHOP & RESTAURANT </span>
             <ul class="nav nav-pills mt-3">
               <li class="nav-item">
-                <a href="Index.html" class="nav-link">HOME</a>
+                <a href="index.html" class="nav-link">HOME</a>
               </li>
               <li class="nav-item">
-                <a href="Menu.html" class="nav-link">MENU</a>
+                <a href="menu.html" class="nav-link">MENU</a>
               </li>
               <li class="nav-item">
-                <a href="About Us.html" class="nav-link">ABOUT US</a>
+                <a href="about us.html" class="nav-link">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a href="Services.html" class="nav-link">SERVICES</a>
+                <a href="services.html" class="nav-link">SERVICES</a>
               </li>
             </ul>
           </div>
@@ -242,7 +243,7 @@
                 src="https://www.contis.ph/cdn/shop/articles/celebration_ff5ba12a-7cf0-40dd-9bb9-226617993180.webp?v=1695110111&width=400"
                 alt="Celebration Venues"
               />
-              <h2>Celebration Venues</h2>
+              <h2>CELEBRATION VENUES</h2>
               <p>Function Rooms, Catering, Dessert Buffet.</p>
             </div>
           </div>
@@ -252,7 +253,7 @@
                 src="https://www.contis.ph/cdn/shop/articles/369907143_680070950829576_1873695139108973099_n_ed231c57-8a4c-4cf5-997e-d8e18e4b660d.jpg?v=1694772494&width=400"
                 alt="Take-Out"
               />
-              <h2>Take-Out</h2>
+              <h2>TAKE-OUT</h2>
               <p>
                 Our Take Out Nook (TON) offers on-the-go guests the convenience
                 of browsing and purchasing their favorite bakeshop.
@@ -265,7 +266,7 @@
                 src="https://www.contis.ph/cdn/shop/articles/delivery.jpg?v=1689957573&width=600"
                 alt="Delivery"
               />
-              <h2>Delivery</h2>
+              <h2>DELIVERY</h2>
               <p>
                 Our Delivery service offers guests the convenience of having
                 their orders brought straight to their doorstep by our courteous
@@ -277,9 +278,9 @@
             <div class="service-box">
               <img
                 src="https://www.contis.ph/cdn/shop/articles/562.png?v=1694772433&width=600"
-                alt="Drive-thru / Park-thru"
+                alt="DRIVE-THRU"
               />
-              <h2>Drive-thru / Park-thru</h2>
+              <h2>DRIVE-THRU</h2>
               <p>
                 Our first ever drive thru is available at Anabu, Molino
                 Boulevard Cavite, Sto. Tomas Batangas, Centennial Kawit Cavite,
@@ -293,7 +294,7 @@
                 src="https://www.contis.ph/cdn/shop/articles/365307048_672722618231076_8235744741276011401_n.jpg?v=1695001467&width=400"
                 alt="Self-Pick-up"
               />
-              <h2>Self-Pick-up</h2>
+              <h2>SELF-PICK-UP</h2>
               <p>
                 Our Pick-up service also offers on-the-go guests the convenience
                 of placing an order in advance for pick-up by them or a
@@ -304,26 +305,10 @@
           <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
             <div class="service-box">
               <img
-                src="https://www.contis.ph/cdn/shop/articles/drive-thru.jpg?v=1689957755&width=600"
-                alt="Curbside Pick-up"
-              />
-              <h2>Curbside Pick-up</h2>
-              <p>
-                The Curbside Pick-up service offers guests the convenience of
-                placing and paying for their orders from the comforts of their
-                vehicles while our team assemble and bring their purchased
-                products back to them so that they would not leave their
-                vehicles and wait inside the store.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-6 col-12 d-flex justify-content-center">
-            <div class="service-box">
-              <img
                 src="https://www.contis.ph/cdn/shop/articles/341001093_246081797868680_3324400572411823530_n.jpg?v=1695001436&width=400"
                 alt="Dine-in"
               />
-              <h2>Dine-in</h2>
+              <h2>DINE-IN</h2>
               <p>
                 Our restaurant facilities give guests the convenience of
                 enjoying our food served to them by our kitchen and dine-team
@@ -340,19 +325,21 @@
           <div class="column">
             <h3>Contact Us</h3>
             <ul>
-              <li><a href="mailto: wecare@contis.ph">Email</a></li>
+              <li>
+                <a href="mailto: wecare@contis.ph">Email: wecare@contis.ph</a>
+              </li>
               <li>Phone No.: 8580-8888</li>
               <li>
                 <a
                   href=" https://www.facebook.com/contisph
                 "
                   target="_blank"
-                  >Facebook</a
-                >
+                  >Facebook: Conti's Bakeshop & Restaurant
+                </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/contis_ph" target="_blank"
-                  >Instagram</a
+                  >Instagram: Conti's Bakeshop & Restaurant</a
                 >
               </li>
             </ul>
